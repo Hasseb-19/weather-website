@@ -1,0 +1,70 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, yellow, aqua) ;
+    font-family: "Arial";
+}
+
+h1 {
+    
+    font-family: "Rubik", "Arial";
+    text-align: center;
+    font-size: 75px;
+ }
+
+div.SearchBar {
+    text-align: center;
+    margin-top: 70px;   
+}
+
+#i1 {
+    width: 60%;           
+    height: 60px;         
+    font-size: 30px;      
+    /* border-radius: 18px;   */
+    padding: 0 15px;      
+    box-sizing: border-box;
+    border-color: black;
+}
+
+#b1 {
+    /* display: block;       */
+    /* margin: 70px auto 0; */
+    background-color: blue;
+    cursor: pointer;
+    border-color: black;
+    font-size: 30px;
+    width: 15%;
+    height: 60px;
+    color: white;
+
+}
+#b1:hover {
+    background-color: darkblue;         
+    transform: scale(1.05);             
+    box-shadow:rgba(0,0,0,0.3);
+}
+
+div.WeatherInfo {
+    text-align: center;          
+    margin: 30px auto;          
+    border: 2px solid black;     
+    border-radius: 15px;         
+    width: 30%;                  
+    padding: 20px;              
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+#icons {
+    display: none;          
+    margin: 0 auto 10px;   
+    width: 50px;              
+    height: 50px;    
+    
+}
+
+
+
+
+
+
